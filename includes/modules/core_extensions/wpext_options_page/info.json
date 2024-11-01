@@ -1,0 +1,13 @@
+{
+  "name": "Options Page",
+  "description": "",
+  "group": "snippets",
+  "available": false,
+  "tags": [
+    {
+      "type": "wpext_coming_soon_module",
+      "name": "Coming Soon!"
+    }
+  ],
+  "order": 230
+}

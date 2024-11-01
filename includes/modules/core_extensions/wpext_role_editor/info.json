@@ -1,0 +1,14 @@
+{
+  "name": "Role Editor",
+  "description": "",
+  "help": "",
+  "group": "users",
+  "available": false,
+   "tags": [
+    {
+      "type": "wpext_coming_soon_module",
+      "name": "Coming Soon!"
+    }
+  ],
+  "order": 52
+}

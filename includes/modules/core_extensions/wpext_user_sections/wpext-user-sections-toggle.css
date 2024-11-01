@@ -1,0 +1,40 @@
+.wpext-user-section--container {
+
+}
+
+.wpext-user-section--title {
+  background: #fdfdfd;
+  border-top: 1px solid #e3e3e3;
+  cursor: pointer;
+  padding: 0.25em 1em;
+  position: relative;
+}
+
+.wpext-user-section--title:after {
+  border: 1px solid #e3e3e3;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+
+  content: "";
+  position: absolute;
+  top: 2em;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+
+  transform: translate( -50%, -50% ) rotate( 135deg );
+}
+.wpext-user-section--title.opened:after {
+  transform: translate( -50%, 0% ) rotate( -45deg );
+}
+
+
+.wpext-user-section--body {
+  border: 1px solid #fdfdfd;
+  display: none;
+  padding: 0.25em 1em;
+}
+
+.wpext-user-section--body.opened {
+  display: block;
+}
